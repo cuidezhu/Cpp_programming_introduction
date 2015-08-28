@@ -1,0 +1,27 @@
+class Time {
+	public:
+		Time(int hour, int minute, int second) {
+			// code omitted
+		}
+	
+	private:
+		int hour;
+		int minute;
+		int second;
+};
+
+class Action {
+	public:
+		Action(int hour, int minute, int second):time(hour, minute, second) {
+
+		} 
+	
+	private:
+		Time time;
+};
+
+int main() {
+	
+	return 0;
+}
+
